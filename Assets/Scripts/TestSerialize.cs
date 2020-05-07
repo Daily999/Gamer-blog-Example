@@ -21,7 +21,7 @@ public class TestSerialize : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.A))
         {
             player.hp -= 10;
-            Debug.Log($"玩家受到了10點傷害 HP剩餘{player.hp}點");
+            Debug.Log($"玩家受到了10點傷害 HP剩餘 {player.hp}點");
         }
         //按下S鍵可以序列化
         if (Input.GetKeyDown(KeyCode.S))
